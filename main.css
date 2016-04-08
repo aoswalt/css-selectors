@@ -1,0 +1,62 @@
+header {
+	border: 1px solid red;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li:not(:first-child) {
+	margin-left: 2rem;
+}
+
+.disabled	{
+	color: grey;
+}
+
+a .disabled,
+a.disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.red {
+	color: red;
+}
+
+.red + h4 {
+	background-color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.blue + h4 {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 15%;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+.promo .disabled {
+	font-weight: normal;
+}
+
+input[type="text"] {
+	height: 25px;
+}
